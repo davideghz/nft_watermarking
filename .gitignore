@@ -1,0 +1,37 @@
+# Various IDEs and Editors
+.vscode/
+.idea/
+**/*~
+
+# Mac OSX temporary files
+.DS_Store
+**/.DS_Store
+
+# dfx temporary files
+.dfx/
+**/.dfx/
+
+# generated files
+webapp/src/declarations/
+
+# rust
+webapp/target/
+
+# frontend code
+**/node_modules/
+webapp/dist/
+
+# environment variables
+**/.env
+
+# Hardhat files
+smart_contracts/cache
+smart_contracts/artifacts
+
+# TypeChain files
+smart_contracts/typechain
+smart_contracts/typechain-types
+
+# solidity-coverage files
+smart_contracts/coverage
+smart_contracts/coverage.json
