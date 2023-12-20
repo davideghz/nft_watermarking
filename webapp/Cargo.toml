@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/private_nft_backend",
+]

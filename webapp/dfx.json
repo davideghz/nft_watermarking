@@ -1,0 +1,30 @@
+{
+  "canisters": {
+    "private_nft_backend": {
+      "candid": "src/private_nft_backend/private_nft_backend.did",
+      "package": "private_nft_backend",
+      "type": "rust"
+    },
+    "private_nft_frontend": {
+      "dependencies": [
+        "private_nft_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/private_nft_frontend/src/index.html"
+      },
+      "source": [
+        "src/private_nft_frontend/assets",
+        "dist/private_nft_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

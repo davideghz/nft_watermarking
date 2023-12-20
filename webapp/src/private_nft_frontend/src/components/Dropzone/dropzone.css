@@ -1,0 +1,9 @@
+.dropzone {
+    height: 100%;
+    width: 100%;
+    border: 1px dashed rgb(222, 226, 230);
+}
+
+.hidden {
+    display: none;
+}
